@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#wrapper{
+    height: 100vh;
+    background-color: rgb(153, 216, 216);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#wrapper .rslt{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 10px;
+}
+#wrapper button{
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+}
+
+#clrmaker{
+    height: 100vh;
+    background-color:#34495e;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#clrmaker .clrbtn{
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+}
+#clrmaker .clrbtn:hover{
+    background-color: black;
+    color: beige;
+}
+
+
+
+
